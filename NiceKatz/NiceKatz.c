@@ -377,7 +377,6 @@ BOOL ForkRemoteProcess(HANDLE hTarget, HANDLE* hTargetForked)
         return FALSE;
     }
 
-    HANDLE hForked;
     NTSTATUS status = NtCreateProcessEx(
         *(&hTargetForked),
         PROCESS_QUERY_INFORMATION | PROCESS_VM_READ,

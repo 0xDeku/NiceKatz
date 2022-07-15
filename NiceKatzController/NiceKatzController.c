@@ -26,7 +26,6 @@ int main()
     return TRUE;
 }
 
-
 BOOL ParseArgs(pCommandLineArgs pCmdArgs)
 {
 
@@ -106,7 +105,7 @@ PrintUsage:
     Usage();
     return FALSE;
 }
-// If not checking range delete there too
+
 BOOL ValidateNumber(WCHAR* String)
 {
     while (*String)
@@ -321,7 +320,6 @@ ReturnFalse:
     WSACleanup();
     return FALSE;
 }
-
 
 void GenerateOutFileName(WCHAR* pFileName)
 {
