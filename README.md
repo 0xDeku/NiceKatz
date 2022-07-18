@@ -65,6 +65,7 @@ NiceKatzController
 
 Arguments:
 -l Listen for connections from remote target machine
+-p Port to listen for connections on
 -d Decrypt the dump file when recived from the target
 -df Decrypt an encrypted dump file by path(Not supported with other arguments)
 
