@@ -363,6 +363,7 @@ void Usage()
     printf("\nNiceKatzController\n\tAlon Leviev(@0xDeku)\n\n");
     printf("Arguments:\n"
         "-l Listen for connections from remote target machine\n"
+        "-p Port to listen for connections on\n"
         "-d Decrypt the dump file when recived from the target\n"
         "-df Decrypt an encrypted dump file by path(Not supported with other arguments)\n");
     printf("\n");
