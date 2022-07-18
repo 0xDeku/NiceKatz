@@ -26,10 +26,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MiniDumpWriteDump.h">
+    <ClInclude Include="NiceKatz.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NiceKatz.h">
+    <ClInclude Include="MiniDumpWriteDump.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SilentProcessExit.h">
