@@ -142,10 +142,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="NiceKatzController.h" />
+    <ClCompile Include="NiceKatzController.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NiceKatzController.c" />
+    <ClInclude Include="NiceKatzController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
